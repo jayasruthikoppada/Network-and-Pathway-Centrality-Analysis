@@ -1,0 +1,42 @@
+# Results
+The analysis identified 1,062 differentially expressed genes (DEGs) between COVID-19 patients and healthy controls:
+- 774 upregulated genes (e.g., `ISG15`, `IFITM3`): Indicate activation of antiviral response pathways.
+- 288 downregulated genes (e.g., `DUSP1`, `EIF2AK2`): Suggest cellular resource shifts toward combating the virus.
+
+### Key Findings
+- Notable Genes:
+  - Upregulated: `ENSG00000278771`, `ENSG00000130176`
+  - Downregulated: `ENSG00000224607`, `ENSG00000200795`
+  - These genes may play critical roles in COVID-19 severity and represent potential therapeutic targets.
+
+- WGCNA Analysis:
+  - Identified gene modules associated with disease severity:
+    - Positively Correlated Modules:
+      - Likely involved in inflammatory responses and immune system activation.
+    - Negatively Correlated Modules:
+      - Suggest potential protective mechanisms or pathways suppressed in severe cases.
+
+- Gene Ontology (GO) Enrichment:
+  - Highlighted pathways such as:
+    - Mitotic nuclear division, chromosome segregation, and cytoskeletal organization.
+  - Cellular components enriched include `spindle`, `condensed chromosome`, and `kinetochore`.
+
+- KEGG Pathway Enrichment:
+  - Strong enrichment in:
+    - `Cell cycle regulation` and `p53 signaling pathway` (linked to apoptosis and DNA repair).
+    - Broader impacts on cell division and stress response pathways.
+  - Highlighted impacts on the immune system (e.g., `Human T-cell leukemia virus 1 infection`).
+
+# Network Analysis
+- Gene Interaction Network (via Cytoscape):
+  - 55 nodes and 1,435 edges reveal dense connections between genes.
+  - Centrality Measures:
+    - `PLK1`, `KIF14`, `CDK2`: Identified as critical hub genes influencing molecular effects across pathways.
+    - These genes play significant roles in the biological processes related to COVID-19 progression.
+
+
+- Highlighting pathways for future investigation into SARS-CoV-2 pathogenesis and immune response.
+
+---
+
+Feel free to modify the README further to fit your project repository layout or add visualizations (e.g., network graphs, bar plots) for additional clarity. Let me know if you need further adjustments!
